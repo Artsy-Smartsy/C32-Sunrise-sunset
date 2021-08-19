@@ -43,14 +43,7 @@ function draw(){
         noStroke;
         text("Time : "+ hour%12 + " AM", 50,100);
        }
-       push();
-       strokeWeight(4);
-       stroke(255);
-  
-    if(minute=minute) {  
-      text(""+hour +":"+minute, 1100,600)
-      pop();
-    }
+     
 }
 
 async function getBackgroundImg(){
